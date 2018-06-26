@@ -92,8 +92,8 @@ The code should be compatible with later versions. Future updates may be made to
 This repository contains several directories:
 
 + `optimalPLD_data/`: Contains the data files used in the numerical experiments. There are two types of subdirectories:
-  + `MIOexpdata1_neq*_Keq**`: Contains data for synthetic data instances (see Sections 5.1 and 5.2 of Bertsimas and Mišić), where `*` and `**` are the values of *n* and *K* respectively. Each directory contains data for 20 randomly generated instances.
-  + `toubia2003_neq3584_Keq330_v2`: Contains data for the real conjoint data set from Toubia et al. used in Section 5.3 of the main paper and Section EC.3 of the electronic companion.
+  + `MIOexpdata1_neq*_Keq**/`: Contains data for synthetic data instances (see Sections 5.1 and 5.2 of Bertsimas and Mišić), where `*` and `**` are the values of *n* and *K* respectively. Each directory contains data for 20 randomly generated instances.
+  + `toubia2003_neq3584_Keq330_v2/`: Contains data for the real conjoint data set from Toubia et al. used in Section 5.3 of the main paper and Section EC.3 of the electronic companion.
 
   Each directory contains several files; the most important are:
   + `orderings_mat.csv`: Customer rankings (`\sigma^k` in the paper).
