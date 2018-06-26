@@ -32,6 +32,7 @@ If you use the code and/or data in this repository in your own research, please 
 }
 ```
 In addition, the use of the processed data in `optimalPLD_data\toubia2003_neq3584_Keq330_v2\` is subject to the same limitations included in the README file of the data set provided by the authors of Toubia et al. (2003). Please refer to the README file of that data for further details.
+
 2. In addition, **please also cite** the paper of Belloni et al. (2008). (Full reference: A. Belloni, R. Freund, M. Selove, and D. Simester. Optimizing product line designs: Efficient methods and comparisons. *Management Science*, 54(9):1544–1552, 2008). For convenience, the .bib entry is provided below:
 ```
 @article{belloni2008optimizing,
