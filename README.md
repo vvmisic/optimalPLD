@@ -90,26 +90,33 @@ The code should be compatible with later versions. Future updates may be made to
 This repository contains several directories:
 
 + `optimalPLD_data`: Contains the data files used in the numerical experiments. There are two types of subdirectories:
+
   + `MIOexpdata1_neq*_Keq**`: Contains data for synthetic data instances (see Sections 5.1 and 5.2 of Bertsimas and Mišić), where `*` and `**` are the values of *n* and *K*. Each directory contains data for 20 randomly generated instances.
+
   + `toubia2003_neq3584_Keq330_v2`: Contains data for the real conjoint data set from Toubia et al. used in Section 5.3 of the main paper and Section EC.3 of the electronic companion.
+
 Each directory contains several files:
+  
   + `orderings_mat.csv`: Customer rankings.
+
   + `lambda_mat.csv`: Customer type probabilities.
+
   + `revenues_mat.csv`: Marginal product profits/revenues (`\pi_i` in the paper).
+
 + `optimalPLD_code`: Contains functions needed to formulate and solve the various optimization problems in the paper, as well as helper functions (such as `optimalPLD_createPath.jl`, which creates directory strings systematically).
 
-Each function is formatted to include documentation that can be accessed using the `?` functionality in Julia. For example, running the following (assuming current directory is `optimalPLD/optimalPLD_code`)
-```
-> include("optimalPLD_solveSAO_constraints.jl")
-> ? optimalPLD_solveSAO_constraints
-```
-will output some information on how to use `optimalPLD_solveSAO_constraints` (which formulates and solves the main formulation of Bertsimas and Mišić). 
+  Each function is formatted to include documentation that can be accessed using the `?` functionality in Julia. For example, running the following (assuming current directory is `optimalPLD/optimalPLD_code`)
+  ```
+  > include("optimalPLD_solveSAO_constraints.jl")
+  > ? optimalPLD_solveSAO_constraints
+  ```
+  will output some information on how to use `optimalPLD_solveSAO_constraints` (which formulates and solves the main formulation of Bertsimas and Mišić). 
 
 + `optimalPLD_exec_scripts`: Contains scripts that can be executed to run the functions in `optimalPLD_code` on a large swathe of instances. Each script contains instructions on how to run it. For example, 
 
-> julia MIOexpdata1_Comparison.jl 1 20
+  > julia MIOexpdata1_Comparison.jl 1 20
 
-will solve all four formulations and their relaxations directly, without any side constraints, for *n* = 100, 200, 500, 1000, *K* = 100, 200, 500, 1000.
+  will solve all four formulations and their relaxations directly, without any side constraints, for *n* = 100, 200, 500, 1000, *K* = 100, 200, 500, 1000.
 + `optimalPLD_testing`: Upon execution of scripts in `optimalPLD_exec_scripts`, this  directory will contain directories with results (on, e.g., objective values and run times). 
 
 
