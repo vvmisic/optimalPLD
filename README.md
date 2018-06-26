@@ -21,9 +21,9 @@ If you use the code and/or data in this repository in your own research, please 
 1. **Please cite** the paper of Toubia et al. (2003). Full reference: 
 > O. Toubia, D. I. Simester, J. R. Hauser and E. Dahan (2003). Fast polyhedral adaptive conjoint estimation. *Marketing Science*, 22(3):273-303. 
 
-For convenience, the following .bib entry is provided:
-```
-@article{toubia2003fast,
+  For convenience, the following .bib entry is provided:
+  ```
+  @article{toubia2003fast,
 	title={Fast polyhedral adaptive conjoint estimation},
 	author={Toubia, O. and Simester, D. I. and Hauser, J. R. and Dahan, E.},
 	journal={Marketing Science},
@@ -32,15 +32,15 @@ For convenience, the following .bib entry is provided:
 	pages={273--303},
 	year={2003},
 	publisher={INFORMS}
-}
-```
-In addition, the use of the processed data in `optimalPLD_data\toubia2003_neq3584_Keq330_v2\` is subject to the same limitations included in the README file of the data set provided by the authors of Toubia et al. (2003). Please refer to the README file of that data for further details.
+  }
+  ```
+  In addition, the use of the processed data in `optimalPLD_data\toubia2003_neq3584_Keq330_v2\` is subject to the same limitations included in the README file of the data set provided by the authors of Toubia et al. (2003). Please refer to the README file of that data for further details.
 
 2. In addition, **please also cite** the paper of Belloni et al. (2008). Full reference: 
 > A. Belloni, R. Freund, M. Selove, and D. Simester (2008). Optimizing product line designs: Efficient methods and comparisons. *Management Science*, 54(9):1544–1552. 
 
-For convenience, the .bib entry is provided below:
-```
+  For convenience, the .bib entry is provided below:
+  ```
 @article{belloni2008optimizing,
 	title={Optimizing product line designs: Efficient methods and comparisons},
 	author={Belloni, A. and Freund, R. and Selove, M. and Simester, D.},
@@ -51,7 +51,7 @@ For convenience, the .bib entry is provided below:
 	year={2008},
 	publisher={INFORMS}
 }
-```
+  ```
 
 ## License 
 
@@ -93,9 +93,9 @@ This repository contains several directories:
   + `MIOexpdata1_neq*_Keq**`: Contains data for synthetic data instances (see Sections 5.1 and 5.2 of Bertsimas and Mišić), where `*` and `**` are the values of *n* and *K*. Each directory contains data for 20 randomly generated instances.
   + `toubia2003_neq3584_Keq330_v2`: Contains data for the real conjoint data set from Toubia et al. used in Section 5.3 of the main paper and Section EC.3 of the electronic companion.
 
-  Each directory contains several files:
-  + `orderings_mat.csv`: Customer rankings.
-  + `lambda_mat.csv`: Customer type probabilities.
+  Each directory contains several files; the most important are:
+  + `orderings_mat.csv`: Customer rankings (`\sigma^k` in the paper).
+  + `lambda_mat.csv`: Customer type probabilities (`\lambda^k` in the paper).
   + `revenues_mat.csv`: Marginal product profits/revenues (`\pi_i` in the paper).
 
 + `optimalPLD_code`: Contains functions needed to formulate and solve the various optimization problems in the paper, as well as helper functions (such as `optimalPLD_createPath.jl`, which creates directory strings systematically).
