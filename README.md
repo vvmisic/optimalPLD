@@ -109,13 +109,13 @@ This repository contains several directories:
   ```
   will output some information on how to use `optimalPLD_solveSAO_constraints` (which formulates and solves the main formulation of Bertsimas and Mišić). 
 
-+ `optimalPLD_exec_scripts/`: Contains scripts that can be executed to run the functions in `optimalPLD_code/` on a large swathe of instances. Each script contains instructions on how to run it. For example, 
++ `optimalPLD_exec_scripts/`: Contains scripts that can be executed to run the functions in `optimalPLD_code/` on a large swathe of instances. Each script contains instructions in the comments on how to run it. For example, 
 
   ``` 
   > julia MIOexpdata1_Comparison.jl 1 20 
   ```
 
-  will solve all four formulations and their relaxations directly, without any side constraints, for *n* = 100, 200, 500, 1000, *K* = 100, 200, 500, 1000.
+  will solve all four formulations and their relaxations directly, without any side constraints, for *n* = 20, 50, 100, *K* = 100, 200, 500, 1000.
 + `optimalPLD_testing/`: Upon execution of scripts in `optimalPLD_exec_scripts/`, this  directory will contain directories with results (on, e.g., objective values and run times). 
 
 
