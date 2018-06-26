@@ -56,6 +56,7 @@ If you use the code and/or data in this repository in your own research, please 
 ## License 
 
 This code is available under the MIT License.
+
 Copyright (C) 2018 Velibor Misic
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
