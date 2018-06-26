@@ -2,7 +2,7 @@
 
 This repository contains all the code used in the numerical experiments in the paper
 
-> Exact first-choice product line optimization by D. Bertsimas and V. V. Mišić, working paper; available at SSRN: https://ssrn.com/abstract=3020502
+> D. Bertsimas and V. V. Mišić (2018). Exact first-choice product line optimization. Working paper; available at SSRN: https://ssrn.com/abstract=3020502. 
 
 ## Citation
 
@@ -19,7 +19,7 @@ If you use the code and/or data in this repository in your own research, please 
 
 *In addition, if you use the processed data files in the `optimalPLD_data\toubia2003_neq3584_Keq330_v2\` directory*: 
 1. **Please cite** the paper of Toubia et al. (2003). Full reference: 
-> O. Toubia, D. I. Simester, J. R. Hauser and E. Dahan. Fast polyhedral adaptive conjoint estimation. *Marketing Science*, 22(3):273-303, 2003). 
+> O. Toubia, D. I. Simester, J. R. Hauser and E. Dahan (2003). Fast polyhedral adaptive conjoint estimation. *Marketing Science*, 22(3):273-303. 
 
 For convenience, the following .bib entry is provided:
 ```
@@ -37,7 +37,7 @@ For convenience, the following .bib entry is provided:
 In addition, the use of the processed data in `optimalPLD_data\toubia2003_neq3584_Keq330_v2\` is subject to the same limitations included in the README file of the data set provided by the authors of Toubia et al. (2003). Please refer to the README file of that data for further details.
 
 2. In addition, **please also cite** the paper of Belloni et al. (2008). Full reference: 
-> A. Belloni, R. Freund, M. Selove, and D. Simester. Optimizing product line designs: Efficient methods and comparisons. *Management Science*, 54(9):1544–1552, 2008). 
+> A. Belloni, R. Freund, M. Selove, and D. Simester (2008). Optimizing product line designs: Efficient methods and comparisons. *Management Science*, 54(9):1544–1552. 
 
 For convenience, the .bib entry is provided below:
 ```
