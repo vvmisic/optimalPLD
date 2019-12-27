@@ -2,18 +2,21 @@
 
 This repository contains all the code used in the numerical experiments in the paper
 
-> D. Bertsimas and V. V. Mišić (2018). Exact first-choice product line optimization. Working paper; available at SSRN: https://ssrn.com/abstract=3020502. 
+> D. Bertsimas and V. V. Mišić (2019). Exact first-choice product line optimization. *Operations Research*, 67(3) : 651-670.  Available at SSRN: https://ssrn.com/abstract=3020502. 
 
 ## Citation
 
 If you use the code and/or data in this repository in your own research, please cite the above paper as follows:
 
 ```
-@article{bertsimas2018exact,
+@article{bertsimas2019exact,
 	title={Exact first-choice product line optimization},
 	author={Bertsimas, Dimitris and Mi\v{s}i\'{c}, Velibor V.}},
-	journal={Working paper},
-	year={2018},
+	journal={Operations Research},
+	volume = {67}, 
+	number = (3),
+	pages = {651--670}, 
+	year={2019},
 	note={Available at SSRN: \url{https://ssrn.com/abstract=3020502}}
 ```
 
